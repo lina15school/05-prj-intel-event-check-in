@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -253,6 +254,17 @@ button .fas {
   display: none;
 }
 
+.celebration-message {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 16px 20px;
+  border-radius: 8px;
+  color: #0f5132;
+  background-color: #e7f7ee;
+  margin-bottom: 15px;
+  display: none;
+}
+
 .success-message {
   background-color: #e8f4fc;
   color: #003c71;
@@ -346,6 +358,54 @@ select {
   font-size: 15px;
   font-weight: 500;
   color: #475569;
+}
+
+/* Attendee list */
+.attendee-list {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #f1f5f9;
+  text-align: left;
+}
+
+.attendee-list h3 {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.attendee-items {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.attendee-item {
+  padding: 12px 14px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #334155;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.attendee-team {
+  color: #64748b;
+  font-weight: 500;
+}
+
+.attendee-empty {
+  padding: 12px 14px;
+  background-color: #f8fafc;
+  border: 1px dashed #cbd5f5;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #94a3b8;
+  text-align: center;
 }
 
 /* Mobile responsive */
